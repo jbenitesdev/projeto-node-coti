@@ -6,7 +6,7 @@ const app = express();
 
 app.use(cors())
 app.use(body.json())
-app.use(expres.json())
+app.use(express.json())
 app.use(express.urlencoded({extended:true}))
 
 app.get('/lista' , (req,res) =>{
